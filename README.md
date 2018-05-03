@@ -7,11 +7,11 @@
 <p>Website Requirements
 For reference, see the "Screenshots" section below.
 
-The website must consist of 7 pages total, including:
+<h3><b>The website must consist of 7 pages total, including:</h3></b>
 
-A landing page containing:
-An explanation of the project.
-Links to each visualizations page.
+<h4><b>A landing page containing:</h4></b>
+  *An explanation of the project.
+  *Links to each visualizations page.
 Four visualization pages, each with:
 A descriptive title and heading tag.
 The plot/visualization itself for the selected comparison.
