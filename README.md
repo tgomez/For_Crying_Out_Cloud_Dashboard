@@ -1,5 +1,3 @@
-# Web_Visualization_Dashboard
-
 <h1><b>Web Visualization Dashboard (Lattitude)</h1></b>
 
 <h2> Aim: To create a visualization dashboard for a past hw assignment. </h2>
