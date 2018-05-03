@@ -5,7 +5,6 @@
 <h2> Aim: To create a visualization dashboard for a past hw assignment. </h2>
 
 <p>Website Requirements
-For reference, see the "Screenshots" section below.
 
 <h3><b>The website must consist of 7 pages total, including:</h3></b>
 
