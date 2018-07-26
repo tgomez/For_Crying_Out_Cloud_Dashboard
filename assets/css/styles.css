@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+  font-family:'Times New Roman', Times, serif, sans-serif;
+  background-color: #ededed;
+}
+
+/* Media query for body */
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #fff;
+  }
+}
+
+
+
+/* ----NAV ---- */
+.navbar-custom {
+  background-color: #fff;
+}
+
+#logo {
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+
+  /* Positioning */
+  margin-left: 70px;
+  font-family:'Times New Roman', Times, serif, sans-serif;
+
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: grey;
+
+  /* Visual */
+  background: #fff;
+}
+
+/* Logo hover state */
+#logo:hover {
+  /* Visual */
+  opacity: 0.7;
+}
+
+.navbar-right-custom {
+  padding-top: 6px;
+  padding-right: 20px;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+/* Nav element hover state */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #3e1fb1;
+}
+
+/* Media query for nav */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #fff;
+  }
+
+  #logo {
+    width: 100%;
+
+    /* Box-model */
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-left: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: grey(25, 10, 158);
+    background: #fff;
+  }
+}
+
+/* -----NAV END---- */
+
+/* ----DESCRIPTION START---- */
+.description-header {
+  margin-bottom: 33px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #209ecf;
+}
+
+.description-content {
+  padding: 30px;
+  margin-top: 32px;
+  background-color: #fff;
+}
+
+.description-content > p {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  color: slategray;
+}
+
+.description-text {
+  padding-bottom: 20px;
+}
+
+#description-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* Description content media query */
+@media only screen and (max-width: 767px) {
+  .description-content {
+    padding: 0;
+    margin-top: 0;
+  }
+}
+
+/* ----DESCRIPTION END---- */
+
+/* ----IMAGE NAV START---- */
+#imageNav-area {
+  width: 100%;
+  padding: 30px 30px 43px;
+  margin-top: 32px;
+  background-color: #fff;
+}
+
+.imageNav-header {
+  /* Positioning */
+  margin-bottom: 15px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #209ecf;
+}
+
+.imageNav-photo {
+  width: 140px;
+  height: 140px;
+}
+
+.imageNav-photo:hover {
+  opacity: 0.6;
+}
+
+.imageNav-photo.active {
+  border: 2px solid #cf3a27;
+}
+
+#images {
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* ----IMAGE NAV END---- */
+
+/* ----COMPARISON START---- */
+.comparison-image:hover {
+  opacity: 0.6;
+}
+
+.comparison-header {
+  /* Positioning */
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+
+  /* Typography */
+  font-size: 20px;
+  font-weight: bold;
+  color: #cf3a27;
+  text-align: center;
+}
+
+/* ----COMPARISON END---- */
+
+/* ----FOOTER START---- */
+.footer {
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+
+  /* Visual */
+  background-color: #666;
+}
+
+.text-muted-footer {
+  margin-top: 15px;
+  color: #fff;
+}
+
+.two-toned-footer-color {
+
+  height: 6px;
+  padding-top: 3px;
+
+  /* Visual */
+  background-color: #666;
+}
+
+/* ----FOOTER END---- */
